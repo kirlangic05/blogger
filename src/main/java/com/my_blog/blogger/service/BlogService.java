@@ -14,7 +14,7 @@ public class BlogService {
         this.repo = repo;
     }
 
-    BlogRepository repo;
+   private final BlogRepository repo;
 
     public List<Blog> findAllBlog() {
         return repo.findAll();
