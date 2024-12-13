@@ -10,7 +10,7 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/users")
-@CrossOrigin(origins = "http://185.240.104.244/")
+@CrossOrigin(origins = "http://94.154.46.244/")
 public class UserController {
     UserService service;
 
