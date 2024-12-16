@@ -10,7 +10,7 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/blog")
-@CrossOrigin(origins = "http://94.154.46.244/")
+@CrossOrigin(origins = "http://127.0.0.1:8080") //127.0.0.1  localhost
 public class BlogController {
     BlogService service;
 
